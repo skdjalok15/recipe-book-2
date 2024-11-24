@@ -1,0 +1,129 @@
+/* General Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: white;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+header h1 {
+    font-size: 1.8em;
+    color: #333;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-form input {
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-form button {
+    background: none;
+    border: none;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.search-form button img {
+    width: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+#recipes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Added spacing between cards */
+}
+
+.recipe-card {
+    width: 300px; /* Set a consistent width for all cards */
+}
+
+
+.recipe {
+    max-width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 15px;
+}
+
+.recipe img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.recipe__tags {
+    display: flex;
+    gap: 5px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.recipe__tags li {
+    background-color: #f0f0f0;
+    padding: 3px 5px;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+.recipe__ratings {
+    color: #f5a623;
+    font-size: 1.2em;
+}
+
+
+.description {
+    margin: 10px 0;
+    color: #666;
+}
+
+footer {
+    text-align: center;
+    background: #f0f0f0;
+    padding: 15px;
+    font-size: 0.8em;
+    color: #555;
+}
+
+footer a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+.social img {
+    width: 20px;
+    margin: 0 5px;
+}
